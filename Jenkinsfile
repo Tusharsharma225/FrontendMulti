@@ -1,6 +1,6 @@
 node{
 stage('Checkout SCM'){
-git branch: 'master', url: 'https://github.com/Tusharsharma225/FrontendMulti.git'
+git branch: 'main', url: 'https://github.com/Tusharsharma225/FrontendMulti.git'
 }
 
 stage('Install node modules'){
